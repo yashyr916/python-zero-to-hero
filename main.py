@@ -1,7 +1,7 @@
-a = 5
+'''a = 5
 b = 6
 c = a + b
-print(c)
+print(c)'''
 
 
 # Program Number 2
@@ -13,7 +13,7 @@ print("area is ",area)'''
 # Day 2
 
 # Define functions for basic arithmetic operations
-def add(x, y):
+'''def add(x, y):
     """Add two numbers."""
     return x + y
 
@@ -66,4 +66,19 @@ def calculator():
             print("Invalid input. Please select a valid operation.")
 
 if __name__ == "__main__":
-    calculator()
+    calculator()'''
+
+#Day 3 Using if and Else Statements
+
+'''a = int(input("enter number"))
+b = int(input("enter number"))
+if a-b>=0:
+    print (a-b)
+else:
+    print(b-a)'''
+
+n = int(input("Enter the number"))
+if n%2==0:
+    print("Even")
+else:
+    print("odd")
