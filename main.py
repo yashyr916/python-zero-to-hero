@@ -77,8 +77,29 @@ if a-b>=0:
 else:
     print(b-a)'''
 
-n = int(input("Enter the number"))
+'''n = int(input("Enter the number"))
 if n%2==0:
     print("Even")
 else:
     print("odd")
+'''
+
+# 🧠 PROBLEM: STUDENT RESULT CHECKER (IF–ELSE ONLY)
+
+a = str(input("Enter the Name"))
+b = float(input("Enter the Number"))
+
+if b<0 or b>100:
+    print("Entered the Invalid Number")
+
+elif b>=90:
+    print(a, "You got Grade:A+")
+elif b>=75:
+    print(a, "You got Grade:A")
+elif b>=60:
+     print(a, "You got Grade:B")
+elif b>=40:
+     print(a, "You got Grade:C")
+else:
+    print("Sorry you are Fail")
+
