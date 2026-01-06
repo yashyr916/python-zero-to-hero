@@ -107,6 +107,16 @@ else:
 
 #Day 4 Check whther the Year is Leap Year or not
 
+'''year = int(input("Enter Year"))
+
+if year % 100 == 0:
+    print("Leap Year")
+
+elif year % 4 ==0:
+    print("Leap Year")
+else:
+    print("Not a leap Year")'''
+
 year = int(input("Enter Year"))
 
 if year % 100 == 0:
